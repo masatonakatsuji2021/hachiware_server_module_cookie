@@ -1,6 +1,6 @@
 {
   "name": "hachiware_server_module_cookie",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Cookie management module for the web server package \"hachiware_server\"..",
   "main": "index.js",
   "scripts": {
