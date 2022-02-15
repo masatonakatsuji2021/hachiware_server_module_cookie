@@ -34,6 +34,10 @@ module.exports = function(conf, context){
     this.get = function(req, name){
         var buff = req.headers.cookie;
 
+        if(!buff){
+            return;
+        }
+
         buff = buff.split("; ");
 
         var cookie = {};
